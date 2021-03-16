@@ -1,0 +1,28 @@
+.mnav{
+    margin-left: 50px;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    color:white;
+}
+.mbtn{
+    background: #c6610f;
+    color: white;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.right-section{
+    margin-right: 100px;
+}
+.trans-btn{
+    background:transparent;
+    color:white;
+    border:none;
+    margin-left: 5px;
+    margin-right: 10px;
+}
