@@ -1,24 +1,33 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FrontPageComponent } from './front-page/front-page.component';
-import { HeaderComponent } from './header/header.component';
-import { AboutUsComponent } from './about-us/about-us.component';
-import { ClassifiedComponent } from './classified/classified.component';
-import { ReviewComponent } from './review/review.component';
-import { ContactUsComponent } from './contact-us/contact-us.component';
+import { HeaderTopComponent } from './header-top/header-top.component';
+import { HeaderMainComponent } from './header-main/header-main.component';
+import { HeaderBottomComponent } from './header-bottom/header-bottom.component';
+import { JealComponent } from './jeal/jeal.component';
+import { EnimComponent } from './enim/enim.component';
+import { MagnaComponent } from './magna/magna.component';
+import { JustoComponent } from './justo/justo.component';
+import { AuctorComponent } from './auctor/auctor.component';
+import { TellusComponent } from './tellus/tellus.component';
+import { OdioComponent } from './odio/odio.component';
+import { SislafComponent } from './sislaf/sislaf.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FrontPageComponent,
-    HeaderComponent,
-    AboutUsComponent,
-    ClassifiedComponent,
-    ReviewComponent,
-    ContactUsComponent
+    HeaderTopComponent,
+    HeaderMainComponent,
+    HeaderBottomComponent,
+    JealComponent,
+    EnimComponent,
+    MagnaComponent,
+    JustoComponent,
+    AuctorComponent,
+    TellusComponent,
+    OdioComponent,
+    SislafComponent,
   ],
   imports: [
     BrowserModule,
