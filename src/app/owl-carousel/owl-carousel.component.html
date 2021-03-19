@@ -1,0 +1,26 @@
+<div class='container-fluid'>       
+  <owl-carousel [options]="SlideOptions" [items]="images" [carouselClasses]="['owl-theme', 'sliding']" >  
+    <div class="item" *ngFor="let img of images">  
+    <div class="image-container" style="align-content: center;position: relative;width: 100%;height:100vh;background: rgba(0, 0, 0, 0.75);">  
+        
+            <img style="width:100%"src={{img}}/> 
+            <div class="after"></div>
+            <div class="carousel-text text-white" style="position: absolute;top:40%;left:15%;margin-right: 15%;">
+                <h1>Your Business Our Effort</h1>
+                <p>
+                    Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula euismod quam. Proin pellentesque odio
+                </p>
+                <div class="carousel-btn">
+                    <a class="btn" href=""><i class="fa fa-link" style="margin-right: 8px;"></i>Get Started</a>
+                    <a class="btn btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal"><i class="fa fa-play" style="margin-right: 8px;"></i>Watch Video</a>
+                </div>
+            </div> 
+        <div>
+          <button class="btn1" style="position: absolute;bottom: 0;right:90px"><i class="fa fa-angle-left"></i></button>
+          <button class="btn2" style="position: absolute;bottom: 0;right:20px"><i class="fa fa-angle-right"></i></button>
+        </div>
+   
+    </div>  
+    </div>  
+    </owl-carousel>  
+  </div>  
