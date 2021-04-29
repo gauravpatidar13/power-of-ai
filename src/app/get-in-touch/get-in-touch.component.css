@@ -1,0 +1,82 @@
+.touch{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.card{
+    background:rgb(235, 245, 255);
+    border-radius: 8px;
+    border:none;
+    position: relative;
+    box-shadow: 0px 10px 10px 5px rgb(217,226,253);
+}
+.touch-content h4{
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+.touch-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100px;
+}
+.touch .mail-box{
+    margin-left: 50%;
+    width: max-content;
+    transform: translate(-50%,0);
+}
+.mail-box input{
+    padding:5px 10px;
+    border-radius: 15px;
+    border:none;
+    color:#000;
+    padding-left: 15px;
+    outline: none;
+    width: 300px;
+    background:rgb(223, 234, 254);
+}
+.mail-box button{
+    color:#fff;
+    border:none;
+    margin-left: -30px;
+    border-radius: 15px;
+    padding:5px 20px;
+    background:rgb(51,109,211);
+}
+.clip-circle{
+    position: absolute;
+    bottom:0;
+    left:0;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    padding:10px;
+    background:rgb(194,225,255);
+    clip-path: circle(20% at 12% 90%);
+}
+.clip-circle-small{
+    position: absolute;
+    top:0;
+    right:50px;
+    width: 120px;
+    height: 120px;
+    border-radius: 2px;
+    padding:10px;
+    background:rgb(194,225,255);
+    clip-path: circle(40% at 60% 0%);
+}
+.gdots{
+    position: absolute;
+    bottom:15px;
+    right:20px;
+    display: grid;
+    grid-template-rows: 3px 3px 3px 3px 3px 3px;
+    grid-template-columns: 3px 3px 3px;
+    gap: 3px;
+}
+.circle{
+    border-radius: 50%;
+    background:rgb(110, 133, 155);
+    width: 3px;
+    height: 3px;
+}

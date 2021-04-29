@@ -1,0 +1,87 @@
+.review{
+    padding-top: 200px;
+}
+.review h3.review-heading{
+    text-align: center;
+    font-weight: 900;
+    color:#000;
+    font-size: 28px;
+}
+.review p.review-para{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.doctors{
+    display: flex;
+    width: 200px;
+    margin-left: 50%;
+    padding-bottom: 40px;
+    transform: translate(-50%,0);
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(223, 223, 223)
+}
+.circle-over{
+    background:rgb(13, 71, 240);
+    border:none;
+}
+.content{
+    margin:10px;
+}
+.say{
+    display: flex;
+    justify-content:space-between;
+}
+.circle-over span{
+    color:#fff;
+}
+.say .say-user{
+    display: flex;
+}
+.say-user-name h4{
+margin-bottom: 0;
+font-weight: 900;
+font-size: 16px;
+}
+.say-user-name p{
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 500;
+}
+.say-user-name{
+    padding-left: 15px;
+}
+.content h5{
+    font-weight: 900;
+    font-size: 20px;
+}
+.rating-wr{
+    transform: scale(1);
+    position: relative;
+    right:20px;
+    top:15px;
+}
+.item{
+    opacity: 0.2;
+    transform: scale3d(0.8,0.8,1);
+    transition: all 0.3s ease-in-out;
+}
+:host /deep/ .owl-nav{
+    display: flex!important;
+    justify-content: center!important;
+}
+:host /deep/ .owl-item.active.center {
+ box-shadow: 0px 0px 8px 8px rgb(207,220,252);
+ margin-bottom: 30px;
+}
+:host /deep/ .owl-item.active.center .item {
+  opacity: 1;
+  transform: scale3d(1,1,1);
+   }

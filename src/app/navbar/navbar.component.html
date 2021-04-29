@@ -1,13 +1,32 @@
-<mat-toolbar color="primary">
-    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>menu</mat-icon>
-    </button>
-    <span routerLink="home" class="logo">My App</span>
-    <span class="example-spacer"></span>
-    <button mat-icon-button class="example-icon favorite-icon" routerLink="../fav" aria-label="Example icon-button with heart icon">
-      <mat-icon>favorite</mat-icon>
-    </button>
-    <button mat-icon-button class="example-icon" routerLink="../share" aria-label="Example icon-button with share icon">
-      <mat-icon>share</mat-icon>
-    </button>
-  </mat-toolbar>
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <div class="navbar-brand">
+    <a><img src="/assets/images/logo.png"><span class="gradient-text">eyes of ai</span></a>
+  </div>
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a  class="nav-link">
+        <span><i class="fa fa-search"></i></span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link">Features</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link">Pricing</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link">Solutions</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link">
+        <button class="btn-login">Log In</button>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link">
+        <button class="btn-sign-up">
+          <i class="far fa-user"></i>Sign up</button>
+      </a>
+    </li>
+  </ul>
+</nav>

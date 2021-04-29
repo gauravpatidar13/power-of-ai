@@ -1,0 +1,40 @@
+footer{
+    margin-top: 30px;
+    background:rgb(249, 250, 255);
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.social-links .social-link{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(245, 246, 249);
+}
+i.fa{
+    font: normal normal normal 14px/1 FontAwesome;
+}
+i.green{
+    color:rgb(84, 100, 235);
+}
+i.cyan{
+    color:rgb(60,181,219);
+}
+i.blue{
+    color:rgb(40, 111, 163);
+}
+i.red{
+    color:rgb(251, 133, 170);
+}
+p.copy{
+    margin-top: 15px;
+    text-align: center;
+}

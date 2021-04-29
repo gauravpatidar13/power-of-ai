@@ -1,0 +1,32 @@
+p.text-link{
+    color:rgb(43, 94, 242);
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+.diag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.diag-content{
+    width: 60%;
+    text-align: center;
+}
+.diag-content h5{
+    text-align: center;
+    font-weight: 900;
+    color:#000;
+    line-height: 34px;
+    font-size: 24px;
+}
+.diag-image{
+   
+    width: 80%;
+}
+.diag-image img{
+    width: 100%;
+}

@@ -8,16 +8,30 @@ import { NavbarComponent } from './navbar/navbar.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-import { SidenavComponent } from './sidenav/sidenav.component';
 import { HomeComponent } from './home/home.component';
-import { SidenavWithSubmenuComponent } from './sidenav-with-submenu/sidenav-with-submenu.component';
+import { AnnotationsComponent } from './annotations/annotations.component';
+import { GlobeComponent } from './globe/globe.component';
+import { DiagnosesComponent } from './diagnoses/diagnoses.component';
+import { SaveTimeComponent } from './save-time/save-time.component';
+import { ReviewComponent } from './review/review.component';
+import { DetailsComponent } from './details/details.component';
+import { GetInTouchComponent } from './get-in-touch/get-in-touch.component';
+import { DisclaimerComponent } from './disclaimer/disclaimer.component';
+import { Footer1Component } from './footer1/footer1.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    SidenavComponent,
     HomeComponent,
-    SidenavWithSubmenuComponent
+    AnnotationsComponent,
+    GlobeComponent,
+    DiagnosesComponent,
+    SaveTimeComponent,
+    ReviewComponent,
+    DetailsComponent,
+    GetInTouchComponent,
+    DisclaimerComponent,
+    Footer1Component,
   ],
   imports: [
     BrowserModule,
