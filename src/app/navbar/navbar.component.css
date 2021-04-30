@@ -47,6 +47,10 @@ ul.navbar-nav{
     background-color:#fff!important;
 }
 
-@media (max-width:567px){
-    
+@media (max-width:767px){
+    .navbar-brand{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 }
