@@ -5,9 +5,6 @@ import { AppComponent } from './app.component';
 import {OwlModule} from 'ngx-owl-carousel';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './navbar/navbar.component';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './home/home.component';
 import { AnnotationsComponent } from './annotations/annotations.component';
 import { GlobeComponent } from './globe/globe.component';
@@ -37,9 +34,6 @@ import { Footer1Component } from './footer1/footer1.component';
     BrowserModule,
     AppRoutingModule,
     OwlModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
     BrowserAnimationsModule
   ],
   providers: [],
