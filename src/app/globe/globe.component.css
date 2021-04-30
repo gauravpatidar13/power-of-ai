@@ -12,7 +12,11 @@
     font-weight: 300;
     color:rgb(112,114,116)
 }
-
+i.fa{
+    font: normal normal normal 18px/1 FontAwesome;
+    color:blue;
+    font-weight: bold;
+}
 .itm-img-wr{
     background:rgb(233, 239, 248);
     border-radius: 10px;
@@ -22,6 +26,7 @@
    padding-left: 15px;
    padding-right: 15px;
     height: 40px;
+    align-self: flex-start;
     justify-content: center;
     align-items: center;
 }
@@ -29,10 +34,39 @@
     background:rgb(0,60,234);
     border-radius: 10px;
     height: 100px;
- padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+padding:20px;
+margin:0;
+}
+.row.patner div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 0;
 }
 .row.patner img{
     transform: scale(2);
+}
+@media (max-width:567px){
+    .row.patner img{ 
+    transform: scale(1);
+    }
+    .row.patner{
+        height: auto;
+    }
+}
+@media (min-width:568px) and (max-width:767px){
+    .row.patner img{ 
+        transform: scale(1);
+        }
+        .row.patner{
+            height: auto;
+        } 
+}
+@media (min-width:768px) and (max-width:991px){
+    .row.patner img{ 
+        transform: scale(1);
+        }
+        .row.patner{
+            height: auto;
+        } 
 }

@@ -24,9 +24,30 @@ p.text-link{
     font-size: 24px;
 }
 .diag-image{
-   
     width: 80%;
 }
 .diag-image img{
     width: 100%;
+}
+
+@media (max-width:567px){
+    .diag-content{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (min-width:568px) and (max-width:767px){
+    .diag-content{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .diag-content{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }

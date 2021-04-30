@@ -20,7 +20,7 @@ footer{
     border:1px solid rgb(245, 246, 249);
 }
 i.fa{
-    font: normal normal normal 14px/1 FontAwesome;
+    font: normal normal normal 20px/1 FontAwesome;
 }
 i.green{
     color:rgb(84, 100, 235);
@@ -37,4 +37,5 @@ i.red{
 p.copy{
     margin-top: 15px;
     text-align: center;
+    padding:0 10px 0;
 }

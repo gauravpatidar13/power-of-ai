@@ -7,13 +7,12 @@
     background:rgb(233,239,248);
     border-radius: 15px;
     padding-right: 32%;
-    width: 70%;
+    width: 79%;
 }
 h5.power{
-    font-weight: bold;
     font-size: 28px;
     line-height: 38px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-weight: 900;
 }
 .btns{
@@ -62,9 +61,10 @@ p.avail img[alt="play-store"]{
     background:transparent;
     border:none;
     padding-top: 30px;
+    padding-left: 34px;
 }
 .card-body{
-    padding-left: 60px;
+    padding-left: 80px;
 }
 .card-header img{
     transform: scale(2);
@@ -84,7 +84,116 @@ p.avail img[alt="play-store"]{
 }
 .x-rays-wr{
     position: absolute;
-    right:140px;
+    right:100px;
     top:100px;
-transform: scale(2);
+transform: scale(1.7);
+}
+
+
+@media (max-width:567px){
+    .annot{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .x-rays-wr{
+        position: unset;
+        margin-top: 50px;
+        padding:5px;
+        width: 100%;
+        transform: scale(1);
+        right: unset;
+        top: unset;
+    } 
+    .x-rays-wr img{
+        width: 100%;
+    }  
+    .card{
+        background:rgb(233,239,248);
+        border-radius: 15px;
+        padding-right: 0;
+        width: 100%;
+    }
+    .btn-sign-up{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .card-body{
+        padding-left: 30px;
+    }
+}
+
+@media (min-width:568px) and (max-width:767px){
+    .annot{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .x-rays-wr{
+        position: unset;
+        margin-top: 50px;
+        padding:5px;
+        width: 100%;
+        transform: scale(1);
+        right: unset;
+        top: unset;
+    } 
+    .x-rays-wr img{
+        width: 100%;
+    }  
+    .card{
+        background:rgb(233,239,248);
+        border-radius: 15px;
+        padding-right: 0;
+        width: 100%;
+    }
+    .btn-sign-up{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .card-body{
+        padding-left: 30px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .annot{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .x-rays-wr{
+        position: unset;
+        margin-top: 50px;
+        padding:5px;
+        width: 100%;
+        transform: scale(1);
+        right: unset;
+        top: unset;
+    } 
+    .x-rays-wr img{
+        width: 100%;
+    }  
+    .card{
+        background:rgb(233,239,248);
+        border-radius: 15px;
+        padding-right: 0;
+        width: 100%;
+    }
+    .btn-sign-up{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .card-body{
+        padding-left: 30px;
+    }
 }

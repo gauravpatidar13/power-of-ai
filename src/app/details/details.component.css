@@ -21,3 +21,8 @@
     font-size: 14px;
     color:rgb(175,175,175);
 }
+@media(max-width:768px){
+    .detail{
+        padding:15px 0px;
+    }
+}

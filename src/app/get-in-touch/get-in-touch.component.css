@@ -13,6 +13,7 @@
     text-align: center;
     font-weight: 900;
     font-size: 20px;
+    z-index: 10;
 }
 .touch-content{
     display: flex;
@@ -79,4 +80,10 @@
     background:rgb(110, 133, 155);
     width: 3px;
     height: 3px;
+}
+
+@media (max-width:567px){
+    .mail-box input{
+        width: 70%;
+    }
 }
